@@ -2,7 +2,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{summary_notes}[2018/01/11 Latex Class for Simple Module Summary Notes. Works better with <3.]
 
-\RequirePackage[margin=1in]{geometry}
+\RequirePackage[left=15mm, right=15mm, top=15mm, bottom=14.5mm]{geometry}
 \RequirePackage{setspace}
 \RequirePackage{amsmath}
 \RequirePackage{amsfonts}
