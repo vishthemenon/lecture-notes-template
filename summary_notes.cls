@@ -59,3 +59,14 @@
 \newenvironment{rcases}
   {\left.\begin{aligned}}
   {\end{aligned}\hspace{3pt}\right\rbrace\hspace{5pt}}
+
+% Notes toolbar
+\newenvironment{note}[1][\unskip]
+{
+  \begin{tcolorbox}
+  \ifthenelse
+    {\equal{#1}{}}
+    {}
+    {\textbf{#1}\\}
+}
+{\end{tcolorbox}}
